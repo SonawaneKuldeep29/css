@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .fullform {
+
+            color: black;
+            height: 500px;
+            width: 350px;
+            background: lightblue;
+            border: 2px solid black;
+            border-radius: 20px 0 20px 0;
+        }
+
+        .firstname {
+            display: flex;
+            justify-content: center;
+        }
+
+        b {
+            color: orange;
+        }
+
+        .name {
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .mail {
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+        .contact {
+            margin-left: 10px;
+            margin-top: 30px;
+        }
+
+        .address {
+            margin-left: 10px;
+            margin-top: 40px;
+        }
+
+        hr {
+            width: 250px;
+        }
+        input[type=text]
+        {
+            background-image: url('logo.png');
+            background-repeat: no-repeat;
+            background-size: 50px;
+        }
+
+       input[placeholder="name"]{
+            margin-right: 150px;
+        }
+    </style>
+</head>
+<body>
+<div class="fullform">
+    <div class="firstname">
+            <h1>Form <b>Get</b></h1>
+    </div>
+    <hr>
+    <div class="name">
+        full Name:-<br><input type="text" placeholder="">
+    </div>
+    <div class="mail">
+        E-mail:-<br><input type="text" placeholder="E-mail">
+    </div>
+    <div class="contact">
+        Contact No:-<br><input type="text" placeholder="contact">
+    </div>
+    <div class="address">
+        Address:-<br><input type="text" placeholder="address">
+    </div>
+</div>
+</body>
+
+</html>
