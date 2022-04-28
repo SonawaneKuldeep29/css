@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <script language="javascript">
+        function calc() {
+            no1 = eval(document.getElementById("a1").value)
+            
+            sum = no1 * no1 *no1
+            document.getElementById("add").value = sum
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        enter no1:<input type="text" id="a1"><br><br>
+        
+        <input type="button" value="Cube of the number" onclick="calc()"><br><br>
+        addition:<input type="text" id="add" disabled>
+    </form>
+</body>
+
+</html>
