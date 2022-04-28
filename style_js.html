@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <style>
+        p,
+        b {
+            color: gold;
+            background: brown;
+        }
+
+        marquee {
+            color: aqua;
+            background: black;
+            font-size: 30px;
+        }
+    </style>
+    <script language="javascript">
+        function edit() {
+            document.getElementById("mypara").innerHTML = "this is para"
+            document.getElementById("mytext").innerHTML = "this is text"
+            document.getElementById("myscroll").innerHTML = "this is scrolling text"
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        edit()
+    </script>
+    <p id="mtpara">
+        here is the paragraph
+    </p>
+    <b id="mytext">
+        this text is bold
+    </b>
+    <marquee id="myscroll">
+        this text is scrolling
+    </marquee>
+
+</body>
+
+</html>
