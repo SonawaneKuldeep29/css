@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <script language="javascript">
+        function alphabet (e) {
+           var key=e.keyCode
+           if((key>=65 && key<=90) || (key>=97 && key<=122))
+           {
+               return true
+           }
+           else
+           {
+               alert("you can only enter alphabets")
+               return false
+           }
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+        enter name:<input type="text" id="txtname" onkeypress="alphabet()">
+    </form>
+</body>
+
+</html>
